@@ -41,9 +41,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 
 # Bot credentials from environment variables (Render compatible)
-API_ID = int(os.environ.get("API_ID", 24473318))
-API_HASH = os.environ.get("API_HASH", "e7dd0576c5ac0ff8f90971d6bb04c8f5")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8034069514:AAHUBpzSCq41jPwsJkDbXuEoVC_yCxzyuw0")
+API_ID = int(os.environ.get("API_ID", 23147459))
+API_HASH = os.environ.get("API_HASH", "7ea3e357441507277e33bd1f7c6d8847")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", ":")
 
 # Initialize Bot Globally (IMPORTANT FIX)
 bot = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
@@ -60,11 +60,11 @@ def run_flask():
     
 
 image_list = [
-"https://graph.org/file/8b1f4146a8d6b43e5b2bc-be490579da043504d5.jpg",
-"https://graph.org/file/b75dab2b3f7eaff612391-282aa53538fd3198d4.jpg",
-"https://graph.org/file/38de0b45dd9144e524a33-0205892dd05593774b.jpg",
-"https://graph.org/file/be39f0eebb9b66d7d6bc9-59af2f46a4a8c510b7.jpg",
-"https://graph.org/file/8b7e3d10e362a2850ba0a-f7c7c46e9f4f50b10b.jpg",
+"https://graph.org/file/2785e334acbe3a33d9238-35d760a7f383073f9a.jpg",
+"https://graph.org/file/0311790696e724424d8fb-db8bd1c1f279f3d92f.jpg",
+"https://graph.org/file/828b99a5e373ad22b7539-ddebc500307f89f254.jpg",
+"https://graph.org/file/2785e334acbe3a33d9238-35d760a7f383073f9a.jpg",
+"https://graph.org/file/0311790696e724424d8fb-db8bd1c1f279f3d92f.jpg",
 ]
 print(4321)
 
